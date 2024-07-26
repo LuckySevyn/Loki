@@ -6,7 +6,7 @@ Use this PowerShell script for encrypting and decrypting folders, follow these s
 
 2. **Run PowerShell as Administrator**: This is necessary to install the module if it's not available.
 
-3. **Set Execution Policy to Bypass (There are many ways but here is one I used with the quotes: "Set-ExecutionPolicy Bypass -Scope Process")** 
+3. **Set Execution Policy to Bypass (There are many ways but here is one I used without the quotes: "Set-ExecutionPolicy Bypass -Scope Process")** 
 
 4. **Execute the Script**: You can either run the script directly or use PowerShell ISE for interactive execution.
 
