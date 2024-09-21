@@ -1,5 +1,11 @@
-LOKIv1 "Folder En/DeCryption" - Readme
-
+```
+       ██╗      ██████╗ ██╗  ██╗██╗
+       ██║     ██╔═══██╗██║ ██╔╝██║
+       ██║     ██║   ██║█████╔╝ ██║
+       ██║     ██║   ██║██╔═██╗ ██║
+       ███████╗╚██████╔╝██║  ██╗██║
+       ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝ v1 "Folder En/DeCryption for Windows"
+```                            
 Use this PowerShell script for encrypting and decrypting folders, follow these steps:
 
 1. **Place the script somewhere you can remember on the system**
@@ -43,7 +49,7 @@ The script defines the functions `Get-EncryptedKey`, `Encrypt-Folder`, and `Decr
 Uncomment and run the `Encrypt-Folder` command with appropriate parameters:
 
 ```powershell
-Encrypt-Folder -FolderPath "C:\Users\lco30\Documents\TestDocs" -OutputFilePath "C:\Users\lco30\Documents\EncryptedFile.enc" -Password $PlainPassword
+Encrypt-Folder -FolderPath "C:\Users\TargetUser\SelectedFolder" -OutputFilePath "C:\Users\TargetUser\WhereYouWant\EncryptedFile.enc" -Password $PlainPassword
 ```
 
 - `FolderPath`: The path of the folder you want to encrypt.
@@ -54,7 +60,7 @@ Encrypt-Folder -FolderPath "C:\Users\lco30\Documents\TestDocs" -OutputFilePath "
 Uncomment and run the `Decrypt-Folder` command with appropriate parameters:
 
 ```powershell
-Decrypt-Folder -InputFilePath "C:\Users\lco30\Documents\EncryptedFile.enc" -OutputFolderPath "C:\Users\lco30\Documents\DecryptedFolder" -Password $PlainPassword
+Decrypt-Folder -InputFilePath "C:\Users\TargetUser\ToTheLocationWhereYouPlaced\EncryptedFile.enc" -OutputFolderPath "C:\Users\ToAnyLocation\DecryptedFolder" -Password $PlainPassword
 ```
 
 - `InputFilePath`: The path of the encrypted file.
